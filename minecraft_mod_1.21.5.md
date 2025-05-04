@@ -32,3 +32,9 @@ https://www.curseforge.com/minecraft/mc-mods/sodium
 
 ### Xaero's Minimap
 https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap
+
+
+---
+
+### SeedcrackerX
+https://github.com/19MisterX98/SeedcrackerX
