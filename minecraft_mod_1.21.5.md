@@ -2,46 +2,46 @@
 
 ## Performance optimization
 
-Lithium (Fabric/NeoForge)
-https://www.curseforge.com/minecraft/mc-mods/lithium
+Lithium
+https://modrinth.com/mod/lithium
 
 Sodium
-https://www.curseforge.com/minecraft/mc-mods/sodium
+https://modrinth.com/mod/sodium
 
 ## Better display 
 
 AppleSkin
-https://www.curseforge.com/minecraft/mc-mods/appleskin
+https://modrinth.com/mod/appleskin
 
 BetterF3
-https://www.curseforge.com/minecraft/mc-mods/betterf3
+https://modrinth.com/mod/betterf3
 
 Durability Tooltip
-https://www.curseforge.com/minecraft/mc-mods/durability-tooltip
+https://modrinth.com/mod/durability-tooltip
 
 Full Brightness Toggle
-https://www.curseforge.com/minecraft/mc-mods/full-brightness-toggle
+https://modrinth.com/mod/full-brightness-toggle
 
 ## Control optimization
 
 Mouse Tweaks
-https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks
+https://modrinth.com/mod/mouse-tweaks
 
 ## Useful tools
 
 Just Zoom
-https://www.curseforge.com/minecraft/mc-mods/just-zoom
+https://modrinth.com/mod/just-zoom
 
-Roughly Enough Items Fabric/Forge/NeoForge (REI)
-https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items
+Roughly Enough Items (REI)
+https://modrinth.com/mod/rei
 
 Xaero's Minimap
-https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap
+https://modrinth.com/mod/xaeros-minimap
 
 ## Just looks cool
 
 ItemPhysic Lite
-https://www.curseforge.com/minecraft/mc-mods/itemphysic-lite
+https://modrinth.com/mod/itemphysic-lite
 
 
 ---
