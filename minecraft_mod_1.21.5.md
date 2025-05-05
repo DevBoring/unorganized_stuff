@@ -2,6 +2,15 @@
 
 ## Performance optimization
 
+Entity Culling \
+https://modrinth.com/mod/entityculling
+
+FerriteCore \
+https://modrinth.com/mod/ferrite-core
+
+ImmediatelyFast\
+https://modrinth.com/mod/immediatelyfast
+
 Lithium \
 https://modrinth.com/mod/lithium
 
@@ -40,8 +49,12 @@ https://modrinth.com/mod/xaeros-minimap
 
 ## Just looks cool
 
+Iris Shaders \
+https://modrinth.com/mod/iris
+
 ItemPhysic Lite \
 https://modrinth.com/mod/itemphysic-lite
+
 
 
 ---
