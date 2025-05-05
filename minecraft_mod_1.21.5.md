@@ -48,5 +48,5 @@ https://modrinth.com/mod/itemphysic-lite
 
 ## Others 
 
-### SeedcrackerX
+SeedcrackerX
 https://github.com/19MisterX98/SeedcrackerX
