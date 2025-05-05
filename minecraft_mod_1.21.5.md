@@ -10,21 +10,21 @@ https://modrinth.com/mod/sodium
 
 ## Better display 
 
-AppleSkin
+AppleSkin \
 https://modrinth.com/mod/appleskin
 
-BetterF3
+BetterF3 \
 https://modrinth.com/mod/betterf3
 
-Durability Tooltip
+Durability Tooltip \
 https://modrinth.com/mod/durability-tooltip
 
-Full Brightness Toggle
+Full Brightness Toggle \
 https://modrinth.com/mod/full-brightness-toggle
 
 ## Control optimization
 
-Mouse Tweaks
+Mouse Tweaks \
 https://modrinth.com/mod/mouse-tweaks
 
 ## Useful tools
@@ -32,15 +32,15 @@ https://modrinth.com/mod/mouse-tweaks
 Just Zoom \
 https://modrinth.com/mod/just-zoom
 
-Roughly Enough Items (REI)
+Roughly Enough Items (REI) \
 https://modrinth.com/mod/rei
 
-Xaero's Minimap
+Xaero's Minimap \
 https://modrinth.com/mod/xaeros-minimap
 
 ## Just looks cool
 
-ItemPhysic Lite
+ItemPhysic Lite \
 https://modrinth.com/mod/itemphysic-lite
 
 
@@ -48,5 +48,5 @@ https://modrinth.com/mod/itemphysic-lite
 
 ## Others 
 
-SeedcrackerX
+SeedcrackerX \
 https://github.com/19MisterX98/SeedcrackerX
