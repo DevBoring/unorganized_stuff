@@ -2,49 +2,51 @@
 
 ## Performance optimization
 
- Lithium (Fabric/NeoForge)
+Lithium (Fabric/NeoForge)
 https://www.curseforge.com/minecraft/mc-mods/lithium
 
- Sodium
+Sodium
 https://www.curseforge.com/minecraft/mc-mods/sodium
 
-## better display 
+## Better display 
 
- AppleSkin
+AppleSkin
 https://www.curseforge.com/minecraft/mc-mods/appleskin
 
- BetterF3
+BetterF3
 https://www.curseforge.com/minecraft/mc-mods/betterf3
 
- Durability Tooltip
+Durability Tooltip
 https://www.curseforge.com/minecraft/mc-mods/durability-tooltip
 
- Full Brightness Toggle
+Full Brightness Toggle
 https://www.curseforge.com/minecraft/mc-mods/full-brightness-toggle
 
 ## Control optimization
 
- Mouse Tweaks
+Mouse Tweaks
 https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks
 
-## useful
+## Useful tools
 
- Just Zoom
+Just Zoom
 https://www.curseforge.com/minecraft/mc-mods/just-zoom
 
- Roughly Enough Items Fabric/Forge/NeoForge (REI)
+Roughly Enough Items Fabric/Forge/NeoForge (REI)
 https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items
 
- Xaero's Minimap
+Xaero's Minimap
 https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap
 
-## just cool
+## Just looks cool
 
- ItemPhysic Lite
+ItemPhysic Lite
 https://www.curseforge.com/minecraft/mc-mods/itemphysic-lite
 
 
 ---
+
+## Others 
 
 ### SeedcrackerX
 https://github.com/19MisterX98/SeedcrackerX
