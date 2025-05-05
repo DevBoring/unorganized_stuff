@@ -1,6 +1,6 @@
 # Minecraft mods for survival mode (1.21.5 NeoForge)
 
-## increase fps 
+## Performance optimization
 
  Lithium (Fabric/NeoForge)
 https://www.curseforge.com/minecraft/mc-mods/lithium
