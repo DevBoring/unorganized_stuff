@@ -29,7 +29,7 @@ https://modrinth.com/mod/mouse-tweaks
 
 ## Useful tools
 
-Just Zoom
+Just Zoom \
 https://modrinth.com/mod/just-zoom
 
 Roughly Enough Items (REI)
