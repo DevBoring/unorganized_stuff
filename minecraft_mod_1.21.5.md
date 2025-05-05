@@ -2,10 +2,10 @@
 
 ## Performance optimization
 
-Lithium
+Lithium \
 https://modrinth.com/mod/lithium
 
-Sodium
+Sodium \
 https://modrinth.com/mod/sodium
 
 ## Better display 
