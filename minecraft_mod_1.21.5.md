@@ -1,4 +1,4 @@
-# Minecraft mods for survival mode (1.21.5 NeoForge)
+# Minecraft mods for survival mode (1.21.5)
 
 ## Performance optimization
 
