@@ -28,9 +28,6 @@ https://modrinth.com/mod/appleskin
 BetterF3 \
 https://modrinth.com/mod/betterf3
 
-Durability Tooltip \
-https://modrinth.com/mod/durability-tooltip
-
 Full Brightness Toggle \
 https://modrinth.com/mod/full-brightness-toggle
 
