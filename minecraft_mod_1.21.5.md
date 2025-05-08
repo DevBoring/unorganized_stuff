@@ -72,3 +72,6 @@ https://modrinth.com/mod/itemphysic-lite
 
 SeedcrackerX \
 https://github.com/19MisterX98/SeedcrackerX
+
+clientcommands \
+https://modrinth.com/mod/client-commands
