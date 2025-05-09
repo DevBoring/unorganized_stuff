@@ -41,6 +41,12 @@ https://modrinth.com/mod/mouse-tweaks
 Inventory Profiles Next \
 https://modrinth.com/mod/inventory-profiles-next
 
+MiniHUD \
+https://modrinth.com/mod/minihud
+
+Mod Menu \
+https://modrinth.com/mod/modmenu
+
 Just Zoom \
 https://modrinth.com/mod/just-zoom
 
