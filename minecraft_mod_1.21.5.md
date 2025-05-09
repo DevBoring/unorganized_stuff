@@ -50,9 +50,6 @@ https://modrinth.com/mod/modmenu
 Just Zoom \
 https://modrinth.com/mod/just-zoom
 
-Lighty \
-https://modrinth.com/mod/lighty
-
 Roughly Enough Items (REI) \
 https://modrinth.com/mod/rei
 
