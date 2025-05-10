@@ -31,6 +31,10 @@ https://modrinth.com/mod/betterf3
 Full Brightness Toggle \
 https://modrinth.com/mod/full-brightness-toggle
 
+Mod Menu \
+https://modrinth.com/mod/modmenu
+
+
 ## Control optimization
 
 Mouse Tweaks \
@@ -43,9 +47,6 @@ https://modrinth.com/mod/inventory-profiles-next
 
 MiniHUD \
 https://modrinth.com/mod/minihud
-
-Mod Menu \
-https://modrinth.com/mod/modmenu
 
 Just Zoom \
 https://modrinth.com/mod/just-zoom
