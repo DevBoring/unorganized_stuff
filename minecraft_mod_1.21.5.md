@@ -55,6 +55,9 @@ https://modrinth.com/mod/inventory-profiles-next
 Just Zoom \
 https://modrinth.com/mod/just-zoom
 
+Litematica \
+https://modrinth.com/mod/litematica
+
 MiniHUD \
 https://modrinth.com/mod/minihud
 
