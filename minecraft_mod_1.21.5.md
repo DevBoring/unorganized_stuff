@@ -1,5 +1,7 @@
 # Minecraft mods for survival mode (1.21.5)
 
+
+
 ## Performance optimization
 
 Entity Culling \
@@ -20,6 +22,8 @@ https://modrinth.com/mod/sodium
 Sodium Extra \
 https://modrinth.com/mod/sodium-extra
 
+
+
 ## Better display 
 
 AppleSkin \
@@ -35,27 +39,35 @@ Mod Menu \
 https://modrinth.com/mod/modmenu
 
 
+
 ## Control optimization
 
 Mouse Tweaks \
 https://modrinth.com/mod/mouse-tweaks
+
+
 
 ## Useful tools
 
 Inventory Profiles Next \
 https://modrinth.com/mod/inventory-profiles-next
 
-MiniHUD \
-https://modrinth.com/mod/minihud
-
 Just Zoom \
 https://modrinth.com/mod/just-zoom
+
+MiniHUD \
+https://modrinth.com/mod/minihud
 
 Roughly Enough Items (REI) \
 https://modrinth.com/mod/rei
 
+Tweakeroo \
+https://modrinth.com/mod/tweakeroo
+
 Xaero's Minimap \
 https://modrinth.com/mod/xaeros-minimap
+
+
 
 ## Just looks cool
 
