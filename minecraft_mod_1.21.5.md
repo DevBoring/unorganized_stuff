@@ -35,6 +35,9 @@ https://modrinth.com/mod/betterf3
 Full Brightness Toggle \
 https://modrinth.com/mod/full-brightness-toggle
 
+Health Indicators \
+https://modrinth.com/mod/health-indicators
+
 Mod Menu \
 https://modrinth.com/mod/modmenu
 
