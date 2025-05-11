@@ -19,9 +19,6 @@ https://modrinth.com/mod/lithium
 Sodium \
 https://modrinth.com/mod/sodium
 
-Sodium Extra \
-https://modrinth.com/mod/sodium-extra
-
 
 
 ## Better display 
