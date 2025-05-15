@@ -1,101 +1,120 @@
-以下是從 Plasma 切換到 Hyperland、再切回 Plasma，並在確認喜歡後移除 Plasma 的完整流程，以 Arch Linux 為例；若你用的是其他發行版，請將套件管理器指令對應替換即可。
+以下示範以 Arch Linux（使用 pacman 管理套件）搭配 SDDM 作為顯示管理器為例，其他發行版請對應改成你的套件管理指令與路徑。
 
-⸻
+---
 
-1. 安裝 Hyperland（以 Arch 為例）
-	1.	安裝必要套件
+## 一、安裝並切換到 Hyperland
 
-sudo pacman -Syu hyprland wayland-protocols wlroots \
-    swaybg swayidle swaylock grim slurp \
-    waybar mako foot alacritty \
-    qt5-wayland qt6-wayland xorg-xwayland \
-    xdg-desktop-portal-hyprland \
-    qt5ct qt6ct lxappearance
+1. **安裝必要套件**
 
-	•	hyprland：核心 Compositor
-	•	wayland-protocols、wlroots：Wayland 基礎
-	•	swaybg 等：背景、鎖屏、截圖、狀態列與通知
-	•	foot、alacritty：範例 terminal（可自行替換）
-	•	qt*-wayland、qt5ct、qt6ct、lxappearance：讓 Qt/GTK 應用在 Wayland 下套用圖示與主題
+   ```bash
+   sudo pacman -Syu \
+     hyperland \
+     wlroots \
+     waybar \
+     wayland-protocols \
+     xdg-desktop-portal-wlr \
+     swaybg swaylock \
+     alacritty    # 或其他你喜歡的 Wayland 端末
+   ```
 
-	2.	建立 Hyperland Session 檔
-在 /usr/share/wayland-sessions/ 下新增 hyperland.desktop：
+   > 這幾個套件包含 Hyperland 核心、背景/鎖定程式、狀態列、GUI 端末，以及必要的 Wayland 協議。
 
-[Desktop Entry]
-Name=Hyperland
-Comment=Lightweight Wayland compositor
-Exec=Hyprland
-Type=Application
-DesktopNames=Hyperland
+2. **建立 Wayland Session 描述檔**
+   在 `/usr/share/wayland-sessions/hyperland.desktop`（如不存在就新建）寫入：
 
-或者如果是用 SDDM，也可以放在 ~/.local/share/wayland-sessions/。
+   ```ini
+   [Desktop Entry]
+   Name=Hyperland
+   Comment=Hyperland Wayland Session
+   Exec=hyperland
+   Type=Application
+   DesktopNames=Hyperland
+   Keywords=wm;tiling;
+   ```
 
-	3.	新增使用者設定檔
-建立目錄與預設設定：
+3. **設定 SDDM（或其他顯示管理器）預設**
 
-mkdir -p ~/.config/hypr
-cp /etc/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
+   * 登出後，在登入畫面（SDDM）選擇「Hyperland」即可進入。
+   * 如果想要預設就進入 Hyperland，可在 `/etc/sddm.conf` 或 `/etc/sddm.conf.d/hyperland.conf` 加入：
 
-然後依喜好編輯 ~/.config/hypr/hyprland.conf，例如設定自動啟動 status bar、鍵盤布局、wallpaper 等。
+     ```ini
+     [Autologin]
+     User=你的使用者名稱
+     Session=hyperland
+     ```
 
-⸻
+4. **自訂啟動腳本（選用）**
+   如果要在 Hyperland 啟動時預載你的環境變數、Keymap、輸入法，可在家目錄放：
 
-2. 切換到 Hyperland
-	1.	登出 Plasma
-	2.	在登入畫面（SDDM/GDM/LightDM）選擇「Hyperland」Session
-	3.	登入即可進入 Hyperland
+   * `~/.config/hypr/startup` （這支 shell 檔在 hyperland 啟動時自動執行）
+     範例內容：
 
-提示：若發現某些 KDE 應用還是用 X11 後端，可在 hyprland.conf 的 exec 區塊裡加入：
+   ```bash
+   #!/usr/bin/env bash
+   setxkbmap -model pc105 -layout us,tw -option grp:win_space_toggle
+   export GTK_THEME=Sweet-Candy
+   export QT_QPA_PLATFORMTHEME=qt5ct
+   # 啟動背景、狀態列
+   swaybg -i ~/Pictures/wallpaper.jpg &
+   waybar &
+   ```
 
-exec=export QT_QPA_PLATFORM=wayland
-exec=export _JAVA_AWT_WM_NONREPARENTING=1
+---
 
+## 二、如果後悔，還原回 Plasma
 
+1. **登出 Hyperland**
+2. **在 SDDM 登入畫面選回「Plasma (Wayland 或 X11)」**
+3. **移除 Hyperland**
 
-⸻
+   ```bash
+   sudo pacman -Rns hyperland \
+     waybar \
+     swaybg swaylock \
+     xdg-desktop-portal-wlr
+   sudo rm /usr/share/wayland-sessions/hyperland.desktop
+   ```
 
-3. 後悔時直接回到 Plasma
-	1.	登出 Hyperland
-	2.	在登入畫面選擇「Plasma（Wayland）」或「Plasma（X11）」
-	3.	登入，即恢復 Plasma
+   這樣就完全把 Hyperland 與相關套件、Session 描述檔刪除，不會影響 Plasma。
 
-無需移除任何檔案，所有 KDE 設定都完好保留在 ~/.config/、~/.local/。
+---
 
-⸻
+## 三、如果喜歡 Hyperland，要刪除 Plasma
 
-4. 如果決定只用 Hyperland，移除 Plasma
+1. **確定切換到 Hyperland 並正常運作**
 
-⚠️ 請先務必確認 Hyperland 下所有常用功能與應用都正常運作，再開始移除。
+2. **透過 SDDM（或其他顯示管理器）預設進入 Hyperland**
 
-	1.	移除 Plasma 及其元套件（以 Arch 為例）：
+3. **移除 Plasma**
 
-sudo pacman -Rns plasma-meta kde-applications-meta \
-    kde-frameworks-meta xorg-server xorg-apps \
-    sddm
+   ```bash
+   sudo pacman -Rns plasma \
+     plasma-desktop \
+     kde-frameworks \
+     sddm
+   ```
 
-	•	plasma-meta、kde-applications-meta、kde-frameworks-meta：一鍵移除所有 Plasma 核心與 KDE 應用
-	•	xorg-server、xorg-apps：如果只想保留 Wayland，可一併移除 Xorg
-	•	sddm：如果你改用其他登入管理器（例如 ly、greetd）
+   > 刪除 SDDM 後，你需要改用其他登入管理器（如 ly, nodm）或直接透過 TTY+startx／startwayland 自動進入 Hyperland。
 
-	2.	(可選) 安裝輕量登入管理器
+4. **（選用）安裝輕量登入工具**
 
-sudo pacman -S ly
-sudo systemctl enable ly.service
+   ```bash
+   sudo pacman -S ly
+   sudo systemctl enable ly
+   ```
 
+   或在 `~/.bash_profile`／`~/.profile` 裡加入：
 
-	3.	清理殘留設定
-如果確定不再需要 KDE 設定檔，可刪除：
+   ```bash
+   [[ -z $DISPLAY && $XDG_SESSION_TYPE != wayland ]] && exec hyperland
+   ```
 
-rm -rf ~/.config/plasma* ~/.config/kde* ~/.local/share/plasma*
+---
 
+### 小提醒
 
+* **備份 dotfiles**：切換前建議先把 `~/.config/hypr`、`~/.config/plasma-*`、`~/.config/sddm.conf*` 放進 Git，避免誤刪。
+* **字體、鍵盤、輸入法**：Hyperland 下的設定要獨立管理，不一定沿用 Plasma 的方式。
+* **顯示管理器**：刪除 SDDM 之後，請務必確保有其他可用的登入／啟動方式，不然會進不去圖形介面。
 
-⸻
-
-完整回顧：
-	•	安裝 Hyperland → 建立 Session → 登入
-	•	不滿意？登出 → 選 Plasma → 登入
-	•	喜歡？移除 Plasma 元套件 → 清理設定
-	•	確保先在 Hyperland 下測試完所有工作流再移除 Plasma！
-
-如此一來，你既能無縫試用 Hyperland，又能隨時回頭，最終再依喜好決定是否徹底移除 Plasma。
+以上步驟即可讓你在 Hyperland 與 Plasma 之間自由切換，並能視喜好完整移除、不留殘跡。祝玩得愉快！
