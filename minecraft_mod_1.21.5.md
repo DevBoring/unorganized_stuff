@@ -19,6 +19,9 @@ https://modrinth.com/mod/lithium
 Sodium \
 https://modrinth.com/mod/sodium
 
+Sodium Extra \
+https://modrinth.com/mod/sodium-extra
+
 
 
 ## Better display 
@@ -29,6 +32,9 @@ https://modrinth.com/mod/appleskin
 BetterF3 \
 https://modrinth.com/mod/betterf3
 
+Continuity \
+https://modrinth.com/mod/continuity
+
 Full Brightness Toggle \
 https://modrinth.com/mod/full-brightness-toggle
 
@@ -37,6 +43,9 @@ https://modrinth.com/mod/health-indicators
 
 Mod Menu \
 https://modrinth.com/mod/modmenu
+
+Reese's Sodium Options \
+https://modrinth.com/mod/reeses-sodium-options
 
 
 
