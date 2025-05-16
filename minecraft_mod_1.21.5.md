@@ -32,9 +32,6 @@ https://modrinth.com/mod/appleskin
 BetterF3 \
 https://modrinth.com/mod/betterf3
 
-Continuity \
-https://modrinth.com/mod/continuity
-
 Full Brightness Toggle \
 https://modrinth.com/mod/full-brightness-toggle
 
