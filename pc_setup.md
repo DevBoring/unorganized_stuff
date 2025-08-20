@@ -14,7 +14,7 @@
 	•	驅動程式用 NVIDIA 官網 Game Ready Driver 最新版本。 \
 	5.	系統與 SSD \
 	•	你用 Acer Predator GM7000 → 在 BIOS 開啟 PCIe Gen4，確保速度跑滿。 \
-	•	安裝 Windows 11（Win10 雖可，但 Win11 對 Ryzen 7000/9000 效能更優）。 \
+	•	安裝 Windows 11（Win10 雖可，但 Win11 對 Ryzen 7000/9000 效能更優）。 
 
 ⸻
 
