@@ -1,5 +1,5 @@
 🔧 組裝後基本設定
-	1.	BIOS 更新 /
+	1.	BIOS 更新 \ 
 	•	先進入 BIOS，確認主機板的 BIOS 已支援 Ryzen 9000 系列。
 	•	MSI MAG B650 TOMAHAWK WIFI 建議更新到最新 BIOS，以確保 CPU 最佳相容性與效能。
 	2.	記憶體設定 (RAM)
