@@ -1,20 +1,20 @@
 🔧 組裝後基本設定 \
 	1.	BIOS 更新 \
-	•	先進入 BIOS，確認主機板的 BIOS 已支援 Ryzen 9000 系列。
-	•	MSI MAG B650 TOMAHAWK WIFI 建議更新到最新 BIOS，以確保 CPU 最佳相容性與效能。
-	2.	記憶體設定 (RAM)
-	•	開啟 BIOS → 開啟 EXPO (AMD 等效於 Intel XMP)，讓 DDR5-6000 CL30 跑在額定時脈。
-	•	這對 9800X3D 特別重要，因為快取+快 RAM 對遊戲效能差異很大。
-	3.	散熱與風道
-	•	ARCTIC Liquid Freezer III Pro 360 放在機殼頂部/前面（看風道安排），確保進/出風壓力平衡。
-	•	217 機殼氣流良好，保持 前進後出/頂出 即可。
-	•	裝好後跑一下 Cinebench / OCCT，確保 CPU 溫度穩定（9800X3D 溫度不高，一般遊戲應該 <80°C）。
-	4.	顯卡安裝
-	•	RTX 5070 Ti 供電線要接好 (PCIe 16-pin / 12VHPWR)，確保沒彎折過度。
-	•	驅動程式用 NVIDIA 官網 Game Ready Driver 最新版本。
-	5.	系統與 SSD
-	•	你用 Acer Predator GM7000 → 在 BIOS 開啟 PCIe Gen4，確保速度跑滿。
-	•	安裝 Windows 11（Win10 雖可，但 Win11 對 Ryzen 7000/9000 效能更優）。
+	•	先進入 BIOS，確認主機板的 BIOS 已支援 Ryzen 9000 系列。 \
+	•	MSI MAG B650 TOMAHAWK WIFI 建議更新到最新 BIOS，以確保 CPU 最佳相容性與效能。 \
+	2.	記憶體設定 (RAM) \
+	•	開啟 BIOS → 開啟 EXPO (AMD 等效於 Intel XMP)，讓 DDR5-6000 CL30 跑在額定時脈。 \
+	•	這對 9800X3D 特別重要，因為快取+快 RAM 對遊戲效能差異很大。 \
+	3.	散熱與風道 \
+	•	ARCTIC Liquid Freezer III Pro 360 放在機殼頂部/前面（看風道安排），確保進/出風壓力平衡。 \
+	•	217 機殼氣流良好，保持 前進後出/頂出 即可。 \
+	•	裝好後跑一下 Cinebench / OCCT，確保 CPU 溫度穩定（9800X3D 溫度不高，一般遊戲應該 <80°C）。 \
+	4.	顯卡安裝 \
+	•	RTX 5070 Ti 供電線要接好 (PCIe 16-pin / 12VHPWR)，確保沒彎折過度。 \
+	•	驅動程式用 NVIDIA 官網 Game Ready Driver 最新版本。 \
+	5.	系統與 SSD \
+	•	你用 Acer Predator GM7000 → 在 BIOS 開啟 PCIe Gen4，確保速度跑滿。 \
+	•	安裝 Windows 11（Win10 雖可，但 Win11 對 Ryzen 7000/9000 效能更優）。 \
 
 ⸻
 
