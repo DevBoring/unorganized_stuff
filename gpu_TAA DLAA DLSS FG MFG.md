@@ -1,6 +1,6 @@
 # NVIDIA gpu TAA/DLAA4/DLSS4 quality, balance, performance/frame gen *0 *2 *3 *4 分別是什麼意思，差在哪，優缺點，建議什麼時候開？
 
-好的，這就為您詳細解釋 NVIDIA 這些圖像技術及其模式的区别、優缺點和使用時機。
+好的，這就為您詳細解釋 NVIDIA 這些圖像技術及其模式的區别、優缺點和使用時機。
 
 核心技術快速理解
 
