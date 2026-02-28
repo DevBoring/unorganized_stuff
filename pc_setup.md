@@ -59,15 +59,6 @@
 
 ---
 
-## 6️⃣ 額外建議
+edge > settings > System and performance > System > turn off 
+"Startup boost" & "Continue running background extensions and apps when Edge is closed"
 
-* **多螢幕 / 高刷新率螢幕** → 建議鎖幀，例如 144Hz
-* **PBO** → 9800X3D 開自動即可
-* **PSU** → 1050W 足夠，未來升級 GPU 仍夠用
-* **SSD** → GM7000 開 PCIe Gen4，確保速度跑滿
-
----
-
-如果你願意，我可以幫你做 **一份附圖的 BIOS + Windows + GPU 設定流程圖**，把每個步驟、選單位置都標出來，組好電腦直接跟著操作就行。
-
-你希望我把這份附圖版也整理嗎？
