@@ -9,10 +9,10 @@
 | **BIOS 版本**                         | 更新到最新版本           | 確保支援 Ryzen 9000 系列  |
 | **EXPO / XMP**                      | 啟動 DDR5-6000 CL30 | 9800X3D 遊戲效能依賴快 RAM |
 | **Precision Boost Overdrive (PBO)** | Auto / Enabled    | 不建議手動超頻，監控溫度 <85°C  |
-| **PCIe Gen4/5**                     | SSD & GPU 全速      | GM7000 SSD 建議開 Gen4 |
+| **PCIe Gen4/5**                     | SSD & GPU 全速      | - |
 | **風扇曲線 (Fan Curve)**                | 自訂或自動             | CPU、機殼風扇平衡散熱與噪音     |
 | **Fast Boot / Fast Startup**        | 建議關閉    | 雙系統或完整硬體初始化時更穩定     |
-| **其他**                              | BIOS 內建 OC 預設值保持  | 避免額外手動超頻            |
+| **其他**                              | BIOS 內建 OC 預設值保持  | -           |
 
 ---
 
