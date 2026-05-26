@@ -25,8 +25,6 @@
 - `media.peerconnection.enabled`：設為 `false`  
   這是最重要的一項，可徹底關閉 WebRTC，防止真實本機與內網 IP 位址洩漏。
 
-- `media.autoplay.default`：設為 `5`  
-  阻止所有網站的媒體自動播放，避免騷擾與潛在惡意利用。
 
 ---
 
