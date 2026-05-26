@@ -1,19 +1,41 @@
-1. 清除追踪参数 / 屏蔽遥测
-这两个设置能防止你的浏览行为被追踪和回传。
+# Firefox 隱私與安全設定
 
-· privacy.query_stripping.enabled：设为 true。Firefox 会自动去掉链接里用来追踪你的尾巴参数。
-· toolkit.telemetry.enabled：设为 false。关闭火狐自己的遥测数据收集。
+## 1. 清除追蹤參數 / 屏蔽遙測
 
-2. 隔绝网络窥探 / 关闭自动播放
-可以防止你的操作习惯、设备状态甚至本地IP被网页嗅探到。
+這兩個設定能防止你的瀏覽行為被追蹤與回傳。
 
-· dom.event.clipboardevents.enabled：设为 false。禁止网页知道你何时复制、剪切或粘贴了内容。
-· dom.battery.enabled：设为 false。禁止网页读取你的设备电量信息。
-· media.peerconnection.enabled：设为 false。这是最关键的一项，能彻底关闭 WebRTC，防止真实的本地和内网 IP 地址泄露。
-· media.autoplay.default：设为 5。阻止所有网页的媒体自动播放，既防骚扰又防恶意利用。
+- `privacy.query_stripping.enabled`：設為 `true`  
+  Firefox 會自動移除連結中用於追蹤的尾端參數。
 
-3. 阻断后台预加载
-能避免浏览器在后台偷偷进行网络连接，减少不必要的风险。
+- `toolkit.telemetry.enabled`：設為 `false`  
+  關閉 Firefox 自身的遙測資料收集。
 
-· network.prefetch-next：设为 false。禁止 Firefox 预先加载网页猜测你会点击的链接。
-· browser.urlbar.speculativeConnect.enabled：设为 false。禁止在地址栏输入时，预先连接到推测的网址。
+---
+
+## 2. 隔絕網路窺探 / 關閉自動播放
+
+可以防止網站嗅探你的操作習慣、裝置狀態，甚至本機 IP。
+
+- `dom.event.clipboardevents.enabled`：設為 `false`  
+  禁止網站得知你何時複製、剪下或貼上內容。
+
+- `dom.battery.enabled`：設為 `false`  
+  禁止網站讀取裝置電量資訊。
+
+- `media.peerconnection.enabled`：設為 `false`  
+  這是最重要的一項，可徹底關閉 WebRTC，防止真實本機與內網 IP 位址洩漏。
+
+- `media.autoplay.default`：設為 `5`  
+  阻止所有網站的媒體自動播放，避免騷擾與潛在惡意利用。
+
+---
+
+## 3. 阻擋背景預載
+
+避免瀏覽器在背景偷偷建立網路連線，降低不必要的風險。
+
+- `network.prefetch-next`：設為 `false`  
+  禁止 Firefox 預先載入它猜測你可能會點擊的連結。
+
+- `browser.urlbar.speculativeConnect.enabled`：設為 `false`  
+  禁止在網址列輸入時，預先連線到推測的網站。
