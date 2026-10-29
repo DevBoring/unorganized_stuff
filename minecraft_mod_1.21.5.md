@@ -58,9 +58,6 @@ https://modrinth.com/mod/mouse-tweaks
 Inventory Profiles Next \
 https://modrinth.com/mod/inventory-profiles-next
 
-Just Zoom \
-https://modrinth.com/mod/just-zoom
-
 Litematica \
 https://modrinth.com/mod/litematica
 
@@ -76,6 +73,8 @@ https://modrinth.com/mod/tweakeroo
 Xaero's Minimap \
 https://modrinth.com/mod/xaeros-minimap
 
+Zoomify (Zoom) \
+https://modrinth.com/mod/zoomify
 
 
 ## Just looks cool
