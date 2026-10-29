@@ -97,3 +97,7 @@ https://github.com/19MisterX98/SeedcrackerX
 
 clientcommands \
 https://modrinth.com/mod/client-commands
+
+
+IterationT, seus(PTGI / renewed), nostalgia, kappa, photon, AstraLex, Complementary Reimagined, Complementary Unbound Euphoria Patches, Sildur’s Vibrant 
+Stay True texture pack 
