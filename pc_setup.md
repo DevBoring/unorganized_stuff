@@ -1,6 +1,6 @@
 # setting up my pc or laptop
 
-##通用
+## 通用
 
 1. 載windows 刷入usb
 
@@ -20,7 +20,7 @@ Retail
 
 5. 成功進桌面開始搞驅動，設定 > windows update 先自動載一遍，再去品牌網站或獨顯官網載一次補齊或更新。
 
-##啟用windows pro & office
+## 啟用windows pro & office
 
 1. https://massgrave.dev/office_c2r_links#english-en-us 載 office
 
