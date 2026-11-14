@@ -57,4 +57,26 @@ irm https://christitus.com/win | iex
 4. 同`tweaks`頁面底下 按 O&O shutup10++
 
    `actions` > `apply only recommended settings`
-   
+
+5. 控制台 > `Power Options` > `choose what the power buttons do` > `change the settings that are currently unavailable` > 取消勾選 `turn on fast start up`
+
+6. windows security > `device security` > `core isolation` > 關 `memory integrity`
+
+7. 32gb ram 或以上可以用
+
+```
+Disable-MMAgent -mc
+```
+## 壓力測試跑分
+
+1. 載 HWMonitor 監控溫度等等
+
+2. CPU 用 cinebench 跑多核
+
+3. GPU 用 3dMark demo 跑 steel nomad
+
+## 其他
+
+1. 設定 > `accrssibility` > `sticky keys` 關 `keyboard shortcut for sticky keys`
+
+2. `mouse` > `enhance pointer precision`
