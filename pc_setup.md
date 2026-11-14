@@ -2,4 +2,11 @@
 
 1. 載windows 刷入usb
 
-2. 
+2. `ei.cfg`
+```
+[Channel]
+Retail
+
+[VL]
+0
+```
