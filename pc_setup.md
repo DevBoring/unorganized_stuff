@@ -52,9 +52,9 @@ irm https://christitus.com/win | iex
 
    勾選 `teredo - disable`
 
-   Run tweak
+   最底下 Run tweak
 
-4. 按 O&O shutup10++
+4. 同`tweaks`頁面底下 按 O&O shutup10++
 
    `actions` > `apply only recommended settings`
    
