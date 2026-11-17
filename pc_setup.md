@@ -64,6 +64,8 @@ irm https://christitus.com/win | iex
 
 7. 32gb ram 或以上可以用
 
+8. `win` + `R` `mmsys.cpl`
+
 ```
 Disable-MMAgent -mc
 ```
