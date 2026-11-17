@@ -64,7 +64,7 @@ irm https://christitus.com/win | iex
 
 7. 32gb ram 或以上可以用
 
-8. `win` + `R` `mmsys.cpl`
+8. `win` + `R` `mmsys.cpl` 選平時用的耳機和麥克風 `advanced` 取消 `allow app to take exclusive control of this device`
 
 ```
 Disable-MMAgent -mc
