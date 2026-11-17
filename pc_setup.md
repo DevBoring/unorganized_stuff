@@ -58,17 +58,19 @@ irm https://christitus.com/win | iex
 
    `actions` > `apply only recommended settings`
 
-5. 控制台 > `Power Options` > `choose what the power buttons do` > `change the settings that are currently unavailable` > 取消勾選 `turn on fast start up`
+5.  `win` + `R` `powercfg.cpl` > `choose what the power buttons do` > `change the settings that are currently unavailable` > 取消勾選 `turn on fast start up`
 
 6. windows security > `device security` > `core isolation` > 關 `memory integrity`
 
 7. 32gb ram 或以上可以用
 
-8. `win` + `R` `mmsys.cpl` 選平時用的耳機和麥克風 `advanced` 取消 `allow app to take exclusive control of this device`
-
 ```
 Disable-MMAgent -mc
 ```
+
+8. `win` + `R` `mmsys.cpl` 選平時用的耳機和麥克風 `advanced` 取消 `allow app to take exclusive control of this device`
+
+
 ## 壓力測試跑分
 
 1. 載 HWMonitor 監控溫度等等
