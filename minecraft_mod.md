@@ -4,17 +4,41 @@
 
 ## Performance optimization
 
+BadOptimizations \
+https://modrinth.com/mod/badoptimizations
+
+Better Block Entities \
+https://modrinth.com/discover/mods?q=better%20blo
+
+Concurrent Chunk Management Engine (Fabric) \
+https://modrinth.com/mod/c2me-fabric
+
+Dynamic FPS \
+https://modrinth.com/mod/dynamic-fps
+
 Entity Culling \
 https://modrinth.com/mod/entityculling
 
 FerriteCore \
 https://modrinth.com/mod/ferrite-core
 
-ImmediatelyFast\
+ImmediatelyFast \
 https://modrinth.com/mod/immediatelyfast
+
+Krypton \
+https://modrinth.com/mod/krypton
 
 Lithium \
 https://modrinth.com/mod/lithium
+
+ModernFix \
+https://modrinth.com/mod/modernfix
+
+More Culling \
+https://modrinth.com/mod/moreculling
+
+ScalableLux \
+https://modrinth.com/mod/scalablelux
 
 Sodium \
 https://modrinth.com/mod/sodium
@@ -35,8 +59,8 @@ https://modrinth.com/mod/betterf3
 Full Brightness Toggle \
 https://modrinth.com/mod/full-brightness-toggle
 
-Health Indicators \
-https://modrinth.com/mod/health-indicators
+Jade \
+https://modrinth.com/mod/jade
 
 Mod Menu \
 https://modrinth.com/mod/modmenu
@@ -78,6 +102,9 @@ https://modrinth.com/mod/zoomify
 
 
 ## Just looks cool
+
+Euphoria Patches\
+https://modrinth.com/mod/euphoria-patches
 
 Iris Shaders \
 https://modrinth.com/mod/iris
