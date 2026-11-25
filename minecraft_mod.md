@@ -125,5 +125,81 @@ clientcommands \
 https://modrinth.com/mod/client-commands
 
 
+
+---
+
+# all enchants
+
+bow
+```
+/give @p minecraft:bow[enchantments={"minecraft:flame":1,"minecraft:infinity":1,"minecraft:mending":1,"minecraft:power":5,"minecraft:punch":2,"minecraft:unbreaking":3,"minecraft:looting":3,"minecraft:piercing":4,"minecraft:multishot":1}] 1
+```
+
+crossbow
+```
+/give @p minecraft:crossbow[enchantments={"minecraft:flame":1,"minecraft:infinity":1,"minecraft:mending":1,"minecraft:power":5,"minecraft:punch":2,"minecraft:unbreaking":3,"minecraft:looting":3,"minecraft:piercing":4,"minecraft:multishot":1,"minecraft:quick_charge":3}] 1
+```
+
+mace
+```
+/give @p minecraft:mace[enchantments={"minecraft:bane_of_arthropods":5,"minecraft:breach":4,"minecraft:density":5,"minecraft:fire_aspect":2,"minecraft:mending":1,"minecraft:smite":5,"minecraft:unbreaking":3,"minecraft:wind_burst":3,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:sharpness":5}] 1
+```
+
+axe (no fortune III)
+```
+/give @p minecraft:netherite_axe[enchantments={"minecraft:bane_of_arthropods":5,"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:silk_touch":1,"minecraft:smite":5,"minecraft:unbreaking":3,"minecraft:breach":4,"minecraft:density":5,"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:wind_burst":3}] 1
+```
+
+spear (no lunge III)
+```
+/give @p minecraft:netherite_spear[enchantments={"minecraft:bane_of_arthropods":5,"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:smite":5,"minecraft:unbreaking":3,"minecraft:breach":4,"minecraft:density":5,"minecraft:wind_burst":3}] 1
+```
+
+sword
+```
+/give @p minecraft:netherite_sword[enchantments={"minecraft:bane_of_arthropods":5,"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:smite":5,"minecraft:unbreaking":3,"minecraft:breach":4,"minecraft:density":5,"minecraft:wind_burst":3,"minecraft:sweeping_edge":3}] 1
+```
+
+trident (no riptide III)
+```
+/give @p minecraft:trident[enchantments={"minecraft:channeling":1,"minecraft:impaling":5,"minecraft:loyalty":3,"minecraft:mending":1,"minecraft:unbreaking":3,"minecraft:bane_of_arthropods":5,"minecraft:breach":4,"minecraft:density":5,"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:sharpness":5,"minecraft:smite":5,"minecraft:wind_burst":3}] 1
+```
+
+hoe (no silk touch)
+```
+/give @p minecraft:netherite_hoe[enchantments={"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:unbreaking":3}] 1
+```
+
+pickaxe (no silk touchh)
+```
+/give @p minecraft:netherite_pickaxe[enchantments={"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:unbreaking":3}] 1
+```
+
+shovel (no fortune III)
+```
+/give @p minecraft:netherite_shovel[enchantments={"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:unbreaking":3,"minecraft:silk_touch":1}] 1
+```
+
+helmet
+```
+/give @p minecraft:netherite_helmet[enchantments={"minecraft:aqua_affinity":1,"minecraft:blast_protection":4,"minecraft:fire_protection":4,"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:protection":4,"minecraft:respiration":3,"minecraft:thorns":3,"minecraft:unbreaking":3}] 1
+```
+
+chestplate
+```
+/give @p minecraft:netherite_chestplate[enchantments={"minecraft:blast_protection":4,"minecraft:fire_protection":4,"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:protection":4,"minecraft:thorns":3,"minecraft:unbreaking":3}] 1
+```
+
+leggings
+```
+/give @p minecraft:netherite_leggings[enchantments={"minecraft:blast_protection":4,"minecraft:fire_protection":4,"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:protection":4,"minecraft:swift_sneak":3,"minecraft:thorns":3,"minecraft:unbreaking":3}] 1
+```
+
+boots (no frost walker II)
+```
+/give @p minecraft:netherite_boots[enchantments={"minecraft:blast_protection":4,"minecraft:depth_strider":3,"minecraft:feather_falling":4,"minecraft:fire_protection":4,"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:protection":4,"minecraft:soul_speed":3,"minecraft:thorns":3,"minecraft:unbreaking":3}] 1
+```
+
+
 IterationT, seus(PTGI / renewed), nostalgia, kappa, photon, AstraLex, Complementary Reimagined, Complementary Unbound Euphoria Patches, Sildur’s Vibrant 
 Stay True texture pack 
