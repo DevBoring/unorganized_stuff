@@ -200,6 +200,32 @@ boots (no frost walker II)
 /give @p minecraft:netherite_boots[enchantments={"minecraft:blast_protection":4,"minecraft:depth_strider":3,"minecraft:feather_falling":4,"minecraft:fire_protection":4,"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:protection":4,"minecraft:soul_speed":3,"minecraft:thorns":3,"minecraft:unbreaking":3}] 1
 ```
 
+---
+
+inf firework for crossbow
+```
+/tag @s add inf_ammo
+```
+
+repeat command block (always)
+```
+execute as @a[tag=inf_ammo] unless items entity @s weapon.offhand minecraft:firework_rocket[minecraft:custom_data~{inf_rocket:true}] unless items entity @s container.* minecraft:firework_rocket[minecraft:custom_data~{inf_rocket:true}] run gamerule command_block_output false
+```
+
+chain command block (always)
+```
+/gamerule send_command_feedback false
+```
+
+chain command block (always)
+```
+execute as @a[tag=inf_ammo] unless items entity @s weapon.offhand minecraft:firework_rocket[minecraft:custom_data~{inf_rocket:true}] unless items entity @s container.* minecraft:firework_rocket[minecraft:custom_data~{inf_rocket:true}] run item replace entity @s weapon.offhand with minecraft:firework_rocket[minecraft:custom_data={inf_rocket:true},minecraft:fireworks={flight_duration:1,explosions:[{shape:"large_ball",colors:[I;11743532]},{shape:"large_ball",colors:[I;11743532]},{shape:"large_ball",colors:[I;11743532]},{shape:"large_ball",colors:[I;11743532]},{shape:"large_ball",colors:[I;11743532]},{shape:"large_ball",colors:[I;11743532]},{shape:"large_ball",colors:[I;11743532]}]}] 1
+```
+
+chain command block (always)
+```
+gamerule command_block_output true
+```
 
 IterationT, seus(PTGI / renewed), nostalgia, kappa, photon, AstraLex, Complementary Reimagined, Complementary Unbound Euphoria Patches, Sildur’s Vibrant 
 Stay True texture pack 
